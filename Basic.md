@@ -24,7 +24,7 @@ foreach ($rows as &$_row) {
     $_row['col'] = 55;
 }
 ```
-- variables that contain abbreviations must be named like $http_request (vs $HTTP_request)
+- variables that contain abbreviations must be named like $http_request (not $HTTP_request)
 - an exception to the rule of variables naming is for static variables containing runtime configuration. Example:
 ```php
 class C1
