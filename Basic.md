@@ -25,12 +25,5 @@ foreach ($rows as &$_row) {
 }
 ```
 - variables that contain abbreviations must be named like $http_request (not $HTTP_request)
-- an exception to the rule of variables naming is for static variables containing runtime configuration. Example:
-```php
-class C1
-{
-    public const CONFIG_DEFAULT = ['prop1' => 55];
-    public static $CONFIG_RUNTIME = [];
-}
-```
+- properties (both static and dynamic), arguments and local variables that hold an object must be named in PascalCase. If the object is passed by reference (for example when a ScopeReference is injected in the parent scope) the name must be prefixed with _ like $_ScopeReference.
 - Long methods should have a comment after the closing parenthesis `} /* end some_long_method() */` or `} //end some_long_method`
