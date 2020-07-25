@@ -10,7 +10,7 @@ The basic coding standard follows [PSR-1](https://www.php-fig.org/psr/psr-1/) wi
 - class names - follow PascalCase. Both class names and namespaces if contain abbreviation (like HTTP) should be named HttpRequest (vs HTTPRequest)
 - properties - must be named like $snake_case for both static and dynamic properties
 - methods - the methods must be named snake_case()
-- **an exception to the naming of the methods is that if the class is extending a class that uses different naming convention (like the internal PHP classes which use camelCase) the extending class should use the same convention as the parent class**
+- **an exception to the naming of the methods is that if the class is extending a class that uses different naming convention (like the internal PHP classes which use camelCase) the extending class should use the same convention as the parent class** Optionally it can provide method aliases in snake_case.
 
 ## Additional rules
 
