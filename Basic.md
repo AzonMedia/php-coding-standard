@@ -15,9 +15,9 @@ The basic coding standard follows [PSR-1](https://www.php-fig.org/psr/psr-1/) wi
 ## Additional rules
 
 - the arguments and local variables must be in $snake_case. No variables should start with _.
-- the only exception to the above rule is when the argument or the local variable is a reference (but not a reference to an object!). Example:
+- the only exception to the above rule is when the argument or the local variable is a reference. Example:
 ```php
-public abstract function method_1(string $arg1, int &$_arg2, Some\Orm\Class1 &$object) : void;
+public abstract function method_1(string $arg1, int &$_arg2, Some\Orm\Class1 &$_Object) : void;
 ```
 ```php
 foreach ($rows as &$_row) {
