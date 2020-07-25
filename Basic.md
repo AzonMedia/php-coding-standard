@@ -33,4 +33,4 @@ class C1
     public static $CONFIG_RUNTIME = [];
 }
 ```
-- Long methods should have a comment after the closing parenthesis `} /* end some_long_method() */`
+- Long methods should have a comment after the closing parenthesis `} /* end some_long_method() */` or `} //end some_long_method`
