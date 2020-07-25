@@ -18,7 +18,7 @@ public abstract function method_2(?Some\Class1 $arg1 = NULL, /* Another\Class2 |
 - the closures must declare argument types and return types like methods
 - the placement of the opening { on closures follows the rules for methods:
 ```php
-$closure = function (string $arg1, /* mixed */ $arg2) : void
+$Closure = function (string $arg1, /* mixed */ $arg2) : void
 {
 };
 ```
